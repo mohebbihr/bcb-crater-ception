@@ -1,1 +1,7 @@
-Welcome to the BCB-Crater-Detection framework repository. 
+Welcome to the BCB-Crater-Detection framework repository. This framework presents a crater detection method that utilizes both craters 
+and its surrounding features to efficiently identify sub-kilometer craters in high-resolution panchromatic images.  The main idea of this 
+work is to solve the crater detection problem from both ends by detecting crater and non-crater at the same time, which makes it a 
+bidirectional deep learning approach. 
+
+This repository contains crater_data and src parts. The crater_data shows our dataset which contains tiles, slices and masks images of 
+Mars surface. 
